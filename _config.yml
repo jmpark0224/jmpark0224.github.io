@@ -1,1 +1,27 @@
-theme: jekyll-theme-minimal
+theme:              jekyll-theme-clean-blog
+
+# Site Settings
+title:              jmpark0224's Blog
+email:
+description:
+author:             jmpark0224
+baseurl:            ""
+url:                "https://jmpark0224.github.io"
+
+# Social Profiles
+twitter_username:
+github_username:    jmpark0224
+facebook_username:
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
